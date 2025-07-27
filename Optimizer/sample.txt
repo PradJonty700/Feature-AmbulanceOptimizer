@@ -1,0 +1,18 @@
+ambulance-backend-python/
+│
+├── src/                          # Core application package
+│   ├── controllers/
+│   │   ├── __init__.py           # Makes the 'controllers' folder a module
+│   │   └── ambulance_controller.py # Route handling logic (Blueprint)
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── maps_service.py       # Google Maps API logic
+│   │   ├── firestore_service.py  # Firestore integration
+│   │   └── signal_service.py     # Signal/junction mock notifier
+│   ├── __init__.py               # Application factory (creates the Flask app)
+│
+├── .env                          # Environment variables (API keys)
+├── .gitignore                    # To ignore venv and other files
+├── requirements.txt              # Python package dependencies
+├── run.py                        # Main script to start the server
+└── README.md
