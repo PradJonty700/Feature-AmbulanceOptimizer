@@ -36,3 +36,7 @@ This not only reduces response time but also enhances coordination between emerg
 ## 🧠 Vision
 
 This system is a foundational step toward integrating healthcare with urban traffic systems. By creating a seamless link between ambulances and traffic control, we aim to reduce emergency response times, automate critical routing decisions, and support the long-term vision of smart, responsive cities.
+
+Sample request body:
+<img width="972" height="356" alt="image" src="https://github.com/user-attachments/assets/c7922dc4-b5b0-4cac-b15c-630b2007eb74" />
+
